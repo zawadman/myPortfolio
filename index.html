@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Zawad Mutawassit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="text-center bg-primary text-white py-5">
+    <h1>Welcome to My Portfolio</h1>
+    <p class="lead">A showcase of my projects, skills, and work</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <p>Hi, I'm Zawad Mutawassit, a web developer and programmer skilled in C++, JavaScript, React.js, and more. I enjoy building interactive applications and solving challenging problems.</p>
+          <p>Currently, I am a student at Memorial University, working on exciting projects like multiplayer games, web apps, and machine learning models.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <!-- Project Card 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/project1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Thrift Mall</h5>
+              <p class="card-text">An online platform for thrift shopping built with React.js and MongoDB.</p>
+              <a href="https://github.com/zawadman/thrift-mall" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/project2.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Fish Frenz</h5>
+              <p class="card-text">A fun 2D game built using SFML for C++ game development.</p>
+              <a href="https://github.com/zawadman/fishFrenz" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/images/project3.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Graphics Simulator</h5>
+              <p class="card-text">A physics simulation project to visualize collisions and object dynamics.</p>
+              <a href="https://github.com/zawadman/graphicsSim" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <p class="text-center">Feel free to reach out to me via email or social platforms.</p>
+      <div class="text-center">
+        <a href="mailto:zawad@example.com" class="btn btn-primary me-2">Email Me</a>
+        <a href="https://linkedin.com/in/zawad" class="btn btn-secondary">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Zawad Mutawassit. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
