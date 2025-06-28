@@ -16,8 +16,15 @@ h3 {
   font-size: 1.5em;
   color: #FF5722;
 }
-#projects .project-card {
+/* #projects .project-card {
   width: 340px;
   min-height: 360px;
   margin: 0 15px 30px;
+} */
+ #projects .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  gap: 30px;
+  justify-content: center;    /* centers the whole grid */
 }
+
